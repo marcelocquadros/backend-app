@@ -5,7 +5,7 @@ service:
       provider: GitHub
       repo: marcelocquadros/backend-app
     build:
-      image: aws/codepipeline/java:openjdk-8  
+      image: aws/codebuild/java:openjdk-8
     acceptance:
       disabled: false                         # Disable the acceptance stage of the pipeline (default: false)
       environment: dev
