@@ -1,5 +1,6 @@
 service:
   port: 8080
+  discoveryTTL: 5
   pipeline:
     source:
       provider: GitHub
