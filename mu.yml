@@ -1,6 +1,5 @@
 service:
   port: 8080
-  pathPatterns:
   pipeline:
     source:
       provider: GitHub
