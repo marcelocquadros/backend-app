@@ -2,8 +2,6 @@ service:
   name: backend-app
   #networkMode: awsvpc
   port: 8080
-  hostPatterns:
-    - backend*
   pipeline:
     source:
       provider: GitHub
